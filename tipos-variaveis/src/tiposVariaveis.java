@@ -1,5 +1,8 @@
 public class tiposVariaveis {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+       
+
+        double salarioNinimo = 2500;
+        System.out.println(salarioNinimo);
     }
 }
