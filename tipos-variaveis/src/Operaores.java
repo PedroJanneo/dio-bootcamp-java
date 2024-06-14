@@ -10,6 +10,9 @@ public class Operaores {
        n += 2;
        System.out.println(n);
 
+       n -= 2;
+       System.out.println(n);
 
+        
     }
 }
