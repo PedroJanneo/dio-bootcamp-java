@@ -7,5 +7,6 @@ public class tiposVariaveis {
 
         final double minimo = 10; // o 'final' faz a variavel virar constante ( constante nao muda de valor)
         System.out.println(minimo); // esse metodo 'final' é usado mto em valor que nao muda, ex: no PI
+        System.out.println("Hello world");
     }
 }
