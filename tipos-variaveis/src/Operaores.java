@@ -5,7 +5,7 @@ public class Operaores {
 
         int n = 5;
 
-       System.out.println( n != 5);
+       System.out.println( n == 5);
 
 
 
