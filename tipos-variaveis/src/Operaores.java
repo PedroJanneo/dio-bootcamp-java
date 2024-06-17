@@ -23,5 +23,9 @@ public class Operaores {
 
         String resultado = n==m ? "verdadeiro" : "falso"; // operador ternario (forma resumida do if/else)
         System.out.println(resultado);                      //primeira condicao V/if, segunda F/else
+
+        String nomeUm = "JANNEO";
+        String nomeDois = new String("JANNEO");  // new = novo objeto
+        System.out.println(nomeUm.equals(nomeDois)); // .equals compara CONTEUDO diferente do == que compara valor
     }
 }
