@@ -5,10 +5,11 @@ public class Escola {
         
     
     Aluno felipe = new Aluno();
-		felipe.setNome("Peu");
+		felipe.setNome("Peu"); // set = dar; get = pegar
 		felipe.setIdade(19);
-		
-		System.out.println("O aluno " + felipe.getNome() + " tem " + felipe.getIdade() + " anos ");
+        felipe.setSexo("Homem");
+
+		System.out.println("O aluno " + felipe.getNome() + " tem " + felipe.getIdade() + " anos " + felipe.getSexo());
 		
 }
 }

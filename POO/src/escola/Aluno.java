@@ -3,7 +3,14 @@ package escola;
 public class Aluno {
    private String nome;
    private int idade;
+   private String Sexo;
 
+public String getSexo() {
+    return Sexo;
+}
+public void setSexo(String sexo) {
+    Sexo = sexo;
+}
 public String getNome() {
     return nome;
 }
