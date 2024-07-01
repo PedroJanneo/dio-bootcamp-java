@@ -55,7 +55,7 @@ public class CarrinhoDeCompras {
     return "CarrinhoDeCompras{" +
         "itens=" + itemList +
         '}';
-  }
+  } 
 
   public static void main(String[] args) {
     // Criando uma instância do carrinho de compras
